@@ -14,7 +14,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 
-
+//ceci est un test
 @Entity
 @DiscriminatorValue("Admin")
 public class Administrateur extends User implements Serializable{
