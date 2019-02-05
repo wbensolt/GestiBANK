@@ -15,7 +15,7 @@ import javax.persistence.Table;
 
 @Entity
 @DiscriminatorValue("Livret")
-
+//hkhkkhkhhkhk
 public class Livret extends Compte implements Serializable{
 	
 	private Date dateCalculInteret;
