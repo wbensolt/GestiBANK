@@ -15,7 +15,7 @@ import javax.persistence.OneToOne;
 
 @Entity
 @DiscriminatorValue("Guest")
-
+//messagetest
 public class Guest extends User implements Serializable{
 		
 	private Date dateDemande;
